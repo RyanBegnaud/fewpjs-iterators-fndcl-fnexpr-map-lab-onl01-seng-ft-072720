@@ -12,7 +12,7 @@ const tutorials = [
 ];
 
 const titleCased = (input) => {
-  return tutorials.map( line => {
+  tutorials.map( line => {
     let tokens = line.split(' ')
     let capitalizedTokens =
       tokens.map( token => token.charAt(0).toUpperCase() + token.slice(1) )
