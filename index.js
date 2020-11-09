@@ -12,10 +12,10 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  let newarr = tutorials.map(tutorial => tutorial {
+  let newarr = tutorials.map(tutorial => {
     
-  })
-  
+  }
+    )
 }
 
 function capitalize(string){
