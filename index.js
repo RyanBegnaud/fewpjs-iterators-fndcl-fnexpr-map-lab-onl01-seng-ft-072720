@@ -14,6 +14,7 @@ const tutorials = [
 const titleCased = () => {
   let newarr = tutorials.map(tutorial => {
     let newline = tutorial.split(" ")
+    let cap = newline.map(word => capitalize(word))
   }
     )
 }
