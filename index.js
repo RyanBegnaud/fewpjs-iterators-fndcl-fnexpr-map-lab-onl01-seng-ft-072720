@@ -16,7 +16,7 @@ const titleCased = (input) => {
     let tokens = line.split(' ')
     let capitalizedTokens =
       tokens.map( token => token.charAt(0).toUpperCase() + token.slice(1) )
-    let response = capitalizedTokens.join(' ')
+    // let response = capitalizedTokens.join(' ')
     return response
   })
 }
